@@ -1,15 +1,15 @@
-<html>
-  <head>
-    <title>This Cat Does Not Exist</title>
-  </head>
+<style>
+/*--预设--*/ 
+body { padding:0px;margin: 0px; } 
+#lyrow, #lyrow input, #lyrow textarea { font-size:12px;font-family: 'Microsoft YaHei', '微软雅黑', MicrosoftJhengHei, '华文细黑', STHeiti, MingLiu; } 
+#lyrow { height:100vh;width: 100vw; } 
+#lyrow div { min-height: 18px;  } 
+#lyrow input, #lyrow textarea { border:rgb(235, 235, 235) 1px solid;border-radius: 3px;padding: 5px 8px;outline: 0; } 
+#lyrow input:hover, #lyrow textarea:hover { border: 1px solid #6bc1f2; } 
+/*--编辑--*/ 
+#lyrow .cat { justify-content:center;display:flex !important; } 
 
-  <body style="background-color: rgba(45, 53, 57, 0.25); width:100%; height: 100%; position: absolute; top: 0, left: 0;">
-    <div style="position: relative; top:40%; transform: translateY(-40%); text-align: center;">
-      <h1><a href="https://www.thiscatdoesnotexist.com">This Cat Does Not Exist</a></h1>
-      <img src="https://www.thiscatdoesnotexist.com" style="height: 50%"/>
-      <p>
-        xxx <a href="https://www.thispersondoesnotexist.com">xxx</a>!
-      </p>
-    </div>
-  </body>
-</html>
+</style>
+<div id="lyrow">
+    <img class="cat" src="https://thiscatdoesnotexist.com">
+</div>
